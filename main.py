@@ -52,6 +52,9 @@ def main() -> int:
     with open(SOURCE, "rb") as f:
         data = f.read()
 
+    if not data:
+        print("error: image.jpg is empty", file=sys.stderr)
+        return 1
     if not data.startswith(b"\xff\xd8\xff"):
         print("error: image.jpg is not a JPEG", file=sys.stderr)
         return 1

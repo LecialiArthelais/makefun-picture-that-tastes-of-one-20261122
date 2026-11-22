@@ -1,8 +1,8 @@
 # The picture that tastes of one ingredient
 
 [![make.fun bounty](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047.svg)](https://make.fun/bounty/the-picture-that-tastes-of-one-20261122-2047)
-[![rank](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/LecialiArthelais/picture-that-tastes-of-one-20261122/rank.svg)](https://make.fun/bounty/the-picture-that-tastes-of-one-20261122-2047)
-[![reward](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/LecialiArthelais/picture-that-tastes-of-one-20261122/reward.svg)](https://make.fun/bounty/the-picture-that-tastes-of-one-20261122-2047)
+[![rank](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/LecialiArthelais/makefun-picture-that-tastes-of-one-20261122/rank.svg)](https://make.fun/bounty/the-picture-that-tastes-of-one-20261122-2047)
+[![reward](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/LecialiArthelais/makefun-picture-that-tastes-of-one-20261122/reward.svg)](https://make.fun/bounty/the-picture-that-tastes-of-one-20261122-2047)
 
 One picture of food, judged on how delicious it looks. The picture that
 tastes of one ingredient: a single halved jammy egg, its molten golden yolk
@@ -17,11 +17,11 @@ ingredient" bounty, $20 in USDC.
 `main.py` (Python 3.13, standard library only, no network) copies the
 baked-in image `image.jpg` to `/output/entry.png` and validates it against
 the gate: a whole JPEG, at most 1,048,576 bytes and 1024 by 1024 pixels
-(1024×1024, 137,354 bytes).
+(1024×1024, 143,471 bytes).
 
 ```sh
 python3 main.py
-# wrote /output/entry.png: JPEG 1024x1024, 137354 bytes
+# wrote /output/entry.png: JPEG 1024x1024, 143471 bytes
 ```
 
 ## Entry
